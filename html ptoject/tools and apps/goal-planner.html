@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Goal Planner | MindGym</title>
+  <link rel="stylesheet" href="../css/css/style.css" />
+</head>
+<body>
+  <header>
+  <h1>Goal Planner</h1>
+  <nav>
+      <ul>
+      <li><a href="../MindGym.html">Home</a></li>
+      <li><a href="../boxing.html">Boxing </a></li>
+      <li><a href="mood-tracker.html" >Mood Tracker</a></li>
+      <li><a href="Focus Timer.html">Focus Timer</a></li>
+      <li><a href="goal-planner.html"class="active" >Goal Planner</a></li>
+      <li><a href="../exercises.html">Exercise</a></li>
+      <li><a href="../stories.html">Stories</a></li>
+      
+      </ul>
+    </nav>
+</header>
+
+  <main>
+    <section>
+      <h2>Set Your Mental Fitness Goals</h2>
+      <form action="#" method="post">
+        <label for="goalTitle">Goal Title:</label><br />
+        <input type="text" id="goalTitle" name="goalTitle" placeholder="Enter your goal" required /><br /><br />
+        
+        <label for="goalDescription">Description:</label><br />
+        <textarea id="goalDescription" name="goalDescription" rows="4" cols="40" placeholder="Describe your goal"></textarea><br /><br />
+        
+        <label for="targetDate">Target Date:</label><br />
+        <input type="date" id="targetDate" name="targetDate" required /><br /><br />
+        
+        <button type="submit" disabled>Save Goal (Coming Soon)</button>
+      </form>
+      <p><em>Note: Form submission is disabled until backend support is available.</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MindGym</p>
+  </footer>
+</body>
+</html>

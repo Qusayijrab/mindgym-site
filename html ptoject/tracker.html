@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tracker | MindGym</title>
+  <link rel="stylesheet" href="css/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>MindGym</h1>
+    <nav>
+      <ul>
+        <li><a href="MindGym.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="tracker.html" class="active">Tracker</a></li>
+        <li><a href="challenges.html">Challenge</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="boxing.html">Boxer's Mindset</a></li>
+        <li><a href="online-help.html">Online Counseling Services</a></li>
+        <li><a href="zen.html">Zen Mode</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your Mental Fitness Tracker</h2>
+
+    <p>Keep track of your daily mental workouts and watch your growth over time. (This page is designed for future interactive features.)</p>
+
+    <section>
+      <h3>Log Your Exercise</h3>
+      <form action="#" method="POST">
+        <label for="date">Date:</label><br />
+        <input type="date" id="date" name="date" required /><br /><br />
+
+        <label for="exercise">Exercise:</label><br />
+        <select id="exercise" name="exercise" required>
+          <option value="">Select Exercise</option>
+          <option value="memory-recall">Memory Recall</option>
+          <option value="focused-breathing">Focused Breathing</option>
+          <option value="visualization">Visualization</option>
+          <option value="gratitude-journal">Gratitude Journal</option>
+          <option value="mindful-observation">Mindful Observation</option>
+          <option value="positive-affirmations">Positive Affirmations</option>
+          <option value="mental-math">Mental Math</option>
+          <option value="reading-reflection">Reading & Reflection</option>
+          <option value="creative-writing">Creative Writing</option>
+        </select><br /><br />
+
+        <label for="duration">Duration (minutes):</label><br />
+        <input type="number" id="duration" name="duration" min="1" max="120" required /><br /><br />
+
+        <label for="notes">Notes (optional):</label><br />
+        <textarea id="notes" name="notes" rows="3" placeholder="How did it go?"></textarea><br /><br />
+
+        <button type="submit">Log Exercise</button>
+      </form>
+    </section>
+
+    <section>
+      <h3>Past Entries</h3>
+      <p><em>Coming soon: A list of your past exercises with dates and notes.</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MindGym. All rights reserved.</p>
+  </footer>
+</body>
+</html>

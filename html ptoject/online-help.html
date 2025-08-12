@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Counseling Services | MindGym</title>
+  <link rel="stylesheet" href="css/css/style.css" />
+  <style>
+    .page-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .intro-box {
+      flex: 1 1 55%;
+      min-width: 300px;
+    }
+    .intro-box img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .services-box {
+      flex: 1 1 55%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .service-card {
+      padding: 15px;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    .booking-box {
+      flex: 1 1 35%;
+      min-width: 280px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    .booking-box form label {
+      font-weight: bold;
+    }
+    .booking-box form input,
+    .booking-box form textarea,
+    .booking-box form button {
+      width: 100%;
+      margin: 5px 0 15px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    .booking-box form button {
+      background-color: #3A6B6B;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .booking-box form button:hover {
+      background-color: #2A5D5D;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Counseling Services</h1>
+    <nav>
+      <ul>
+      <li><a href="MindGym.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="tracker.html">Tracker</a></li>
+        <li><a href="challenges.html">Challenge</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="boxing.html">Boxer's Mindset</a></li>
+        <li><a href="online-help.html"  class="active">Online Counseling Services</a></li>
+        <li><a href="zen.html">Zen Mode</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <div class="intro-box">
+      <h2>Support for Your Mental Wellness</h2>
+      <p>
+        Access professional counseling from the comfort of your home.  
+        Our experienced therapists help you manage stress, build resilience, and develop a balanced mindset.
+      </p>
+      <img src="https://via.placeholder.com/600x350?text=Mental+Wellness+Support" alt="Mental wellness counseling" />
+    </div>
+
+    <div class="booking-box">
+      <h3>Book a Session</h3>
+      <p>Connect with a licensed counselor who can guide you through your personal growth journey.</p>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">What would you like help with?</label>
+        <textarea id="message" name="message" rows="3" placeholder="Stress, anxiety, motivation, etc." required></textarea>
+
+        <button type="submit">Request a Session</button>
+      </form>
+    </div>
+
+    <div class="services-box">
+      <div class="service-card">
+        🌿 <strong>Emotional Well-being</strong>
+        <p>Learn strategies to manage anxiety, stress, and emotional challenges.</p>
+      </div>
+      <div class="service-card">
+        🎯 <strong>Personal Growth Coaching</strong>
+        <p>Set goals and build habits that support your life’s purpose and happiness.</p>
+      </div>
+      <div class="service-card">
+        🧘 <strong>Mindfulness & Relaxation</strong>
+        <p>Develop routines to improve focus, calm the mind, and reduce tension.</p>
+      </div>
+      <div class="service-card">
+        💬 <strong>Private 1-on-1 Sessions</strong>
+        <p>Receive personalized advice and guidance tailored to your needs.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MindGym | Mental Wellness & Growth Hub</p>
+  </footer>
+</body>
+</html>

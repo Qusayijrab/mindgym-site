@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Tracker | MindGym</title>
+  <link rel="stylesheet" href="../css/css/style.css"
+</head>
+<body>
+  <header>
+    <h1>Mood Tracker</h1>
+   <nav>
+    <ul>
+      <li><a href="../MindGym.html">Home</a></li>
+      <li><a href="../boxing.html">Boxing </a></li>
+      <li><a href="mood-tracker.html" class="active">Mood Tracker</a></li>
+      <li><a href="Focus Timer.html">Focus Timer</a></li>
+      <li><a href="goal-planner.html" >Goal Planner</a></li>
+      <li><a href="../exercises.html">Exercise</a></li>
+      <li><a href="../stories.html">Stories</a></li>
+      
+    </ul>
+  </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Log Your Mood Today</h2>
+      <form action="#" method="post">
+        <label for="date">Date:</label><br />
+        <input type="date" id="date" name="date" required /><br /><br />
+        
+        <label for="mood">Mood (choose one):</label><br />
+        <select id="mood" name="mood" required>
+          <option value="" disabled selected>Select your mood</option>
+          <option value="happy">😊 Happy</option>
+          <option value="neutral">😐 Neutral</option>
+          <option value="sad">😢 Sad</option>
+          <option value="anxious">😰 Anxious</option>
+          <option value="angry">😡 Angry</option>
+          <option value="excited">🤩 Excited</option>
+        </select><br /><br />
+        
+        <label for="notes">Additional Notes:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Write anything about your mood..."></textarea><br /><br />
+        
+        <button type="submit" disabled>Submit (Coming Soon)</button>
+      </form>
+      <p><em>Note: Form submission is disabled until backend support is available.</em></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 MindGym</p>
+  </footer>
+</body>
+</html>
